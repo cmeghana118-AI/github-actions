@@ -1,0 +1,9 @@
+name: My-CI-Workflow
+on:
+ workflow_dispatch:
+
+jobs:
+  my-first-job:
+    steps:
+      - name: This is my first job
+       run: echo "Hi World"
