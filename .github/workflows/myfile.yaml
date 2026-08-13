@@ -4,6 +4,8 @@ on:
 
 jobs:
   my-first-job:
-    steps:
-      - name: This is my first job
-       run: echo "Hi World"
+     runs-on: self-hosted
+     steps:
+        - name: my-job
+          run: echo " Hi This is Meghana"
+      
